@@ -1,0 +1,13 @@
+{
+  "name": "margenclaro-calculator",
+  "version": "1.0.0",
+  "description": "A dependency-free project pricing calculator with target margin and payment fees.",
+  "main": "calculator.js",
+  "type": "commonjs",
+  "private": true,
+  "license": "MIT",
+  "scripts": {"test": "node --test", "examples": "node examples.js"},
+  "engines": {"node": ">=18"},
+  "homepage": "https://margenclaro.com/en/",
+  "keywords": ["pricing", "freelance", "profit-margin", "calculator", "payment-fees"]
+}
