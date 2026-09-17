@@ -31,6 +31,16 @@ A designer estimates 20 hours at an internal time cost of 15 per hour (labor 300
 
 Now the project takes 5 extra hours. Cost rises to 515. If the price cannot change, profit falls to 128.315 and the margin drops to **18.93%**. Re-pricing with `hours: 25` instead gives 793.08. The engine always re-prices; it has no fixed-price mode, so the 18.93% is derived from the returned `price`, `fee` and the new `cost`.
 
+## Agree the change before starting
+
+Use the free [scope-change worksheet and client message](https://margenclaro.com/en/resources/scope-change-template/) ([Spanish version](https://margenclaro.com/recursos/cambios-de-alcance/)) to apply the example above. Download a four-page printable PDF and editable TXT messages in English and Spanish, without signing up or providing an email. The web calculator runs in your browser; Node is not required.
+
+Check the current agreement first: revisions already included stay included. For work outside that scope, recalculate costs privately and confirm the scope, additional charge and delivery date in writing before scheduling it. A first reply you can adapt:
+
+> Thanks for the request. I'll check what our agreement includes, then confirm any additional charge and revised delivery date before we schedule the change.
+
+The separate download has its own use permission in its LEEME file. It is not included in this MIT repository; the paid toolkit is a separate product.
+
 ## Margin is not markup
 
 Margin is profit as a share of price. Markup is profit as a share of cost. On a 440 cost, a 30% markup yields 572, which is only a 23.1% margin (fees ignored). A 30% margin needs 628.58 after rounding the price upward to cents, before fees. The engine works with margin, which is why it divides instead of multiplying:
@@ -54,8 +64,8 @@ MargenClaro also sells a separate, proprietary offline kit for a one-time US$19 
 
 ## Status
 
-This is a source release prepared for distribution. There are no usage figures, benchmarks or endorsements to report, and nothing here is tax, accounting or legal advice.
+The engine source is public in this GitHub repository under the MIT License. There are no usage figures, benchmarks or endorsements to report, and nothing here is tax, accounting or legal advice.
 
 ## Resumen en español
 
-Este repositorio es una copia aislada del motor de la calculadora gratuita de [margenclaro.com](https://margenclaro.com/), con licencia MIT. Calcula el precio a partir de horas, costo interno por hora, costos directos, gastos generales, contingencia, comisiones, margen e impuesto. Con 20 horas a 15, 100 de costos directos, 40 de gastos generales, comisión del 5% más 0,50 fijo y margen del 30%, el precio es 677,70. Si el proyecto requiere 5 horas más sin cambiar el precio, el margen baja al 18,93%. El kit de pago (US$19 antes de impuestos, con presupuestos guardados, escenarios y PDF para el cliente) es un producto separado y no forma parte de este repositorio. No es una herramienta de cumplimiento fiscal.
+Este repositorio es una copia aislada del motor de la calculadora gratuita de [margenclaro.com](https://margenclaro.com/), con licencia MIT. Calcula el precio a partir de horas, costo interno por hora, costos directos, gastos generales, contingencia, comisiones, margen e impuesto. Con 20 horas a 15, 100 de costos directos, 40 de gastos generales, comisión del 5% más 0,50 fijo y margen del 30%, el precio es 677,70. Si el proyecto requiere 5 horas más sin cambiar el precio, el margen baja al 18,93%. El recurso gratuito de cambios de alcance ([margenclaro.com/recursos/cambios-de-alcance/](https://margenclaro.com/recursos/cambios-de-alcance/)) usa este mismo ejemplo (nuevo precio 793,08) y se descarga sin registro: PDF imprimible, mensajes TXT editables y LEEME con su propio permiso de uso; no forma parte de este repositorio ni tiene licencia MIT. El kit de pago (US$19 antes de impuestos, con presupuestos guardados, escenarios y PDF para el cliente) es un producto separado y no forma parte de este repositorio. No es una herramienta de cumplimiento fiscal.
