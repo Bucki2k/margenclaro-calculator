@@ -2,6 +2,14 @@
 
 The pricing engine behind the free calculator at [margenclaro.com/en/](https://margenclaro.com/en/) (Spanish: [margenclaro.com](https://margenclaro.com/)). This repository is an isolated copy of that already public engine, released under the MIT License. It is one dependency-free file, `calculator.js`, that works as a CommonJS module in Node and also registers `MargenClaro` as a global in browsers. Amounts are unitless: use one currency consistently. Pricing uses two decimals, without currency conversion or currency-specific rounding rules.
 
+## Use the calculator without code
+
+Open the **[free installable calculator in English](https://margenclaro.com/app/en/)** or **[español](https://margenclaro.com/app/)**. Estimate a service project's price from your time, costs, contingency, payment fees and target margin. Choose from 46 currency labels; amounts are not converted.
+
+The page includes installation instructions for your browser. Once it reports **“Ready for offline use”**, the calculator and examples work without a connection. Your figures are not saved or sent; closing, reloading, updating or changing language may lose them. The website, toolkit purchase and support links still need a connection.
+
+This is an installable web app, not an App Store or Google Play listing. This repository contains the MIT-licensed calculation engine; the hosted interface is not included in this source release.
+
 ## Quick start
 
 ```js
@@ -69,3 +77,6 @@ The engine source is public in this GitHub repository under the MIT License. The
 ## Resumen en español
 
 Este repositorio es una copia aislada del motor de la calculadora gratuita de [margenclaro.com](https://margenclaro.com/), con licencia MIT. Calcula el precio a partir de horas, costo interno por hora, costos directos, gastos generales, contingencia, comisiones, margen e impuesto. Con 20 horas a 15, 100 de costos directos, 40 de gastos generales, comisión del 5% más 0,50 fijo y margen del 30%, el precio es 677,70. Si el proyecto requiere 5 horas más sin cambiar el precio, el margen baja al 18,93%. El recurso gratuito de cambios de alcance ([margenclaro.com/recursos/cambios-de-alcance/](https://margenclaro.com/recursos/cambios-de-alcance/)) usa este mismo ejemplo (nuevo precio 793,08) y se descarga sin registro: PDF imprimible, mensajes TXT editables y LEEME con su propio permiso de uso; no forma parte de este repositorio ni tiene licencia MIT. El kit de pago (US$19 antes de impuestos, con presupuestos guardados, escenarios y PDF para el cliente) es un producto separado y no forma parte de este repositorio. No es una herramienta de cumplimiento fiscal.
+
+También puedes abrir la **[calculadora gratuita instalable en español](https://margenclaro.com/app/)** ([English](https://margenclaro.com/app/en/)) sin usar código. Sigue las instrucciones de la página para añadirla a tu pantalla de inicio. Cuando indique «Lista para usar sin conexión», podrás calcular sin internet. Las cifras no se guardan ni se envían; los enlaces al sitio, compra y soporte requieren conexión. Es una app web, todavía sin publicación en App Store o Google Play; este repositorio solo contiene el motor con licencia MIT.
+
